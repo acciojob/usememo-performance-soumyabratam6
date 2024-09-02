@@ -5,8 +5,8 @@ import TaskList from "./TaskList ";
 
 const generateInitialTasks = ()=>{
   const tasks = [];
-  for (let i = 0; i <=50; i++) {
-    tasks.push({id:i,text:`Task ${i}`,completed:i<=25})    
+  for (let i = 1; i <=50; i++) {
+    tasks.push({id:i,text:`Todo ${i}`,completed:i<=25})    
   }
   return tasks;
 }
